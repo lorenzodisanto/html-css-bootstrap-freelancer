@@ -15,3 +15,11 @@
   width: 200px;
   height: 200px;
 }
+
+#footer-top {
+  background-color: #45526b;
+}
+
+#footer-bottom {
+  background-color: #333c4f;
+}
