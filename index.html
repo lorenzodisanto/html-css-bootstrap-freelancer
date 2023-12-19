@@ -13,6 +13,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -49,25 +58,34 @@
       <section class="section-green">
         <div class="container text-center text-white">
           <div class="p-4">
-            <img src="" alt="" class="immagine border-dashed" />
+            <img src="./img/avatar.svg" alt="" class="immagine" />
           </div>
-          <h1>TITOLO</h1>
-          <div class="star">STELLA</div>
-          <div class="list-group list-group-horizontal justify-content-center">
+          <h1>START BOOTSTRAP</h1>
+          <div class="star p-4">
+            <span class="star-icon"
+              ><i class="fa-solid fa-star fa-2xl"></i
+            ></span>
+          </div>
+          <div
+            class="list-group list-group-horizontal justify-content-center align-items-center"
+          >
             <a
               href="#"
               class="link-underline link-underline-opacity-0 p-4 text-white"
-              >LINK</a
+              >GRAPHIC ARTIST</a
             >
+            <span>-</span>
             <a
               href="#"
               class="link-underline link-underline-opacity-0 p-4 text-white"
-              >LINK</a
+              >WEB DESIGNER</a
             >
+            <span>-</span>
+
             <a
               href="#"
               class="link-underline link-underline-opacity-0 p-4 text-white"
-              >LINK</a
+              >ILLUSTRATOR</a
             >
           </div>
         </div>
@@ -75,28 +93,48 @@
 
       <!-- section  portfolio-->
       <section>
-        <div class="container text-center p-4">
+        <div class="container text-center py-4">
           <h2>PORTFOLIO</h2>
 
-          <div class="star pb-4">STELLA NERA</div>
-          <div class="row g-2 justify-content-center">
+          <div class="star p-4">
+            <span class="star-icon"
+              ><i class="fa-solid fa-star fa-2xl"></i
+            ></span>
+          </div>
+          <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img src="./img/cabin.png" class="rounded-3" alt="cabin" />
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img src="./img/cake.png" class="rounded-3" alt="cake" />
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img src="./img/circus.png" class="rounded-3" alt="circus" />
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img src="./img/game.png" class="rounded-3" alt="circus" />
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img src="./img/safe.png" class="rounded-3" alt="safe" />
+              </div>
             </div>
             <div class="col-md-6 col-lg-4">
-              <div class="card border-dashed">foto card</div>
+              <div class="card border border-0">
+                <img
+                  src="./img/submarine.png"
+                  class="rounded-3"
+                  alt="submarine"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -104,46 +142,98 @@
 
       <!-- section about -->
       <section class="section-green">
-        <div class="container text-center p-4 text-white">
+        <div class="container text-center py-4 text-white">
           <h2>ABOUT</h2>
-          <div class="star pb-4">STELLA</div>
-          <div class="row g-2 justify-content-center">
+          <div class="star p-4">
+            <span class="star-icon"
+              ><i class="fa-solid fa-star fa-2xl"></i
+            ></span>
+          </div>
+          <div class="row g-4 justify-content-center text-start fs-5">
             <div class="col-9 col-md-5">
-              <div class="card border-dashed bg-transparent text-white">
-                text about
+              <div class="card border border-0 bg-transparent text-white">
+                <p>
+                  Freelancer is a free bootstrap theme created by Start
+                  Bootstrap. The download includes the complete source files
+                  including HTML, CSS, and JavaScript as well as optional LESS
+                  stylesheets for easy customization.
+                </p>
               </div>
             </div>
             <div class="col-9 col-md-5">
-              <div class="card border-dashed bg-transparent text-white">
-                text about
+              <div class="card border border-0 bg-transparent text-white">
+                <p>
+                  Whether you're a student looking to showcase your work, a
+                  professional looking to attract clients, or a graphics artist
+                  looking to share your projects, this template is the perfect
+                  starting point!
+                </p>
               </div>
             </div>
           </div>
-          <button type="button" class="btn btn-light m-4">Download</button>
+          <button type="button" class="btn btn-outline-light m-4">
+            <i class="fa-solid fa-download pe-2"></i>Download
+          </button>
         </div>
       </section>
 
       <!-- section contact-me -->
       <section>
-        <div class="container text-center p-4">
+        <div class="container text-center py-4">
           <h2>CONTACT ME</h2>
-          <div class="star pb-4">STELLA NERA</div>
+          <div class="star p-4">
+            <span class="star-icon"
+              ><i class="fa-solid fa-star fa-2xl"></i
+            ></span>
+          </div>
           <div class="row justify-content-center">
             <div class="col-9 col-md-10 text-start">
-              <div class="border-dashed">
-                <!-- input area -->
-                NAME
-                <hr />
-                ADRESS
-                <hr />
-                PHONE
-                <hr />
-                MESSAGE
-                <hr />
-              </div>
-              <div class="text-start pt-4">
-                <button type="button" class="btn btn-success">Send</button>
-              </div>
+              <form
+                action="https://learning.tizianonicolai.com/request-catcher/"
+                method="POST"
+              >
+                <!-- nome -->
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  class="form-control py-4 my-1"
+                  placeholder="Name"
+                />
+
+                <!-- email -->
+                <input
+                  type="email"
+                  name="Email Adress"
+                  id="Email Adress"
+                  class="form-control py-4 my-1"
+                  placeholder="Email Adress"
+                />
+
+                <!-- phone -->
+                <input
+                  type="tel"
+                  name="Phone Number"
+                  id="Phone Number"
+                  class="form-control py-4 my-1"
+                  placeholder="Phone Number"
+                />
+
+                <!-- message -->
+                <textarea
+                  class="form-control py-4 my-1"
+                  placeholder="Message"
+                  id="Message"
+                  style="height: 200px"
+                ></textarea>
+
+                <!-- button invia -->
+                <div class="text-start pt-4">
+                  <button type="submit" class="btn section-green text-white">
+                    Send
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -152,7 +242,7 @@
     <!-- FOOTER -->
     <footer>
       <div id="footer-top">
-        <div class="container text-center p-4">
+        <div class="container text-center py-4">
           <div class="row flex-column justify-content-center flex-md-row">
             <div class="col-md-4">
               <div class="card border-dashed bg-transparent text-white">
