@@ -61,6 +61,11 @@
   line-height: 50px;
 }
 
+#footer-top a {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
 #footer-bottom {
   background-color: #333c4f;
 }
