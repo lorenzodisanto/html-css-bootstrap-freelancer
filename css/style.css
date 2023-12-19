@@ -12,8 +12,41 @@
 
 .immagine {
   /* debug */
-  width: 200px;
-  height: 200px;
+  width: 300px;
+}
+
+.star-icon {
+  position: relative;
+}
+
+.star-icon::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  border-radius: 25px;
+  left: 50px;
+  top: 50%;
+}
+
+.star-icon::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: black;
+  border-radius: 25px;
+  right: 50px;
+  top: 50%;
+}
+
+.section-green .star-icon::before {
+  background-color: white;
+}
+
+.section-green .star-icon::after {
+  background-color: white;
 }
 
 #footer-top {
